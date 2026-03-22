@@ -1,0 +1,149 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#f4f6f9;
+color:#333;
+}
+
+/* NAVBAR */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:white;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:25px;
+}
+
+nav a{
+text-decoration:none;
+color:#333;
+font-weight:500;
+}
+
+/* HERO */
+
+.hero{
+display:flex;
+align-items:center;
+padding:60px;
+gap:40px;
+}
+
+.hero img{
+width:220px;
+height: 220px;
+object-fit: cover;
+border-radius: 12px;
+}
+
+.hero-text h1{
+font-size:40px;
+}
+
+.hero-text button{
+margin-top:15px;
+padding:10px 20px;
+background:#2c4f7c;
+color:white;
+border:none;
+border-radius:6px;
+}
+
+/* ABOUT */
+
+.about-section{
+display:flex;
+gap:40px;
+padding:40px 60px;
+}
+
+.about, .education{
+background:white;
+padding:20px;
+border-radius:10px;
+flex:1;
+}
+
+/* SKILLS */
+
+
+.skills{
+padding:40px 60px;
+text-align:center;
+}
+
+.skills-container{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:20px;
+}
+
+.skill{
+background:white;
+padding:15px 25px;
+border-radius:8px;
+}
+
+/* PROJECTS */
+
+.projects{
+padding:40px 60px;
+text-align:center;
+}
+
+.project-container{
+display:flex;
+gap:25px;
+margin-top:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+flex:1;
+}
+
+.card button{
+margin-top:10px;
+padding:8px 15px;
+background:#2c4f7c;
+color:white;
+border:none;
+border-radius:5px;
+}
+
+/* ACHIEVEMENTS */
+
+.achievements{
+padding:40px 60px;
+}
+
+.achievements ul{
+margin-top:10px;
+}
+
+/* CONTACT */
+
+.contact{
+background:white;
+padding:40px 60px;
+margin:40px;
+border-radius:10px;
+}
